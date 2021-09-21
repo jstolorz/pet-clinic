@@ -2,7 +2,7 @@ package com.bluesoft.petclinic.model;
 
 import java.time.LocalDate;
 
-class Pet {
+public class Pet {
     private PetType petType;
     private Owner owner;
     private LocalDate birthDate;

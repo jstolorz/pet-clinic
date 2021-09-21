@@ -1,4 +1,4 @@
 package com.bluesoft.petclinic.model;
 
-class Owner extends Person{
+public class Owner extends Person{
 }
