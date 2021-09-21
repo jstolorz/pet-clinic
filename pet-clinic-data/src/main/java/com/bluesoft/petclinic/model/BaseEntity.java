@@ -2,14 +2,14 @@ package com.bluesoft.petclinic.model;
 
 import java.io.Serializable;
 
-class BaseEntity implements Serializable {
+public class BaseEntity implements Serializable {
     private Long id;
 
-    Long getId() {
+    public Long getId() {
         return id;
     }
 
-    void setId(final Long id) {
+    public void setId(final Long id) {
         this.id = id;
     }
 }
