@@ -4,5 +4,5 @@ import com.bluesoft.petclinic.model.Vet;
 
 import java.util.Set;
 
-interface VetService extends CrudService<Vet,Long>{
+public interface VetService extends CrudService<Vet,Long>{
 }
