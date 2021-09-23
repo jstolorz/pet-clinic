@@ -3,10 +3,12 @@ package com.bluesoft.petclinic.services.map;
 import com.bluesoft.petclinic.model.Pet;
 import com.bluesoft.petclinic.services.CrudService;
 import com.bluesoft.petclinic.services.PetService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
-class PetServiceMap extends AbstractMapService<Pet, Long> implements PetService {
+@Service
+public class PetServiceMap extends AbstractMapService<Pet, Long> implements PetService {
     @Override
     public Set<Pet> findAll() {
         return super.findAll();
