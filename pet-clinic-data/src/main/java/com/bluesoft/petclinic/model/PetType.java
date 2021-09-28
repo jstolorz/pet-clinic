@@ -1,13 +1,13 @@
 package com.bluesoft.petclinic.model;
 
-class PetType extends BaseEntity {
+public class PetType extends BaseEntity {
     private String name;
 
-    String getName() {
+    public String getName() {
         return name;
     }
 
-    void setName(final String name) {
+    public void setName(final String name) {
         this.name = name;
     }
 }
