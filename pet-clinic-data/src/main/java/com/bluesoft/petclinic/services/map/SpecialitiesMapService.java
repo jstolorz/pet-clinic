@@ -1,11 +1,13 @@
 package com.bluesoft.petclinic.services.map;
 
 import com.bluesoft.petclinic.model.Speciality;
-import com.bluesoft.petclinic.services.SpecialitiesService;
+import com.bluesoft.petclinic.services.SpecialtyService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
-class SpecialitiesMapService extends AbstractMapService<Speciality,Long> implements SpecialitiesService {
+@Service
+class SpecialitiesMapService extends AbstractMapService<Speciality,Long> implements SpecialtyService {
     @Override
     public Set<Speciality> findAll() {
         return super.findAll();
@@ -18,6 +20,8 @@ class SpecialitiesMapService extends AbstractMapService<Speciality,Long> impleme
 
     @Override
     public Speciality save(final Speciality object) {
+
+
         return super.save(object);
     }
 
